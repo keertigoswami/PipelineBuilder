@@ -389,6 +389,7 @@ const PipelineBuilder = () => {
 
 
   const getNodePosition = (type, index) => {
+    console.log("type",type);
     const x = type === 'source' ? 100 : 600;
     const y = 50 + index * 150; // Adjust the vertical spacing as needed
     return { x, y };

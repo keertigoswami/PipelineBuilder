@@ -1,13 +1,4 @@
-// import React from 'react';
-// import './Node.css';
 
-// const Node = ({ data }) => (
-//   <div className={`node ${data.type}`}>
-//     {data.label}
-//   </div>
-// );
-
-// export default Node;
 
 import React from 'react';
 
